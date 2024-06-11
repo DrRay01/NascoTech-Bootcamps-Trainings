@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+		
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+		
+		<link rel="stylesheet" href="css/style.css">
+
+		<title>NascoTech Bootcamps & Trainings</title>
+	</head>
+	<body>
+		
+		<header class="header">
+			<img src="images/logo1.png" alt="NascoTech Logo" class="logo">
+
+			<nav class="navbar">
+				<a href="index.html">Home</a>
+				<a href="about.html">About</a>
+				<a href="courses.html">Courses</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+
+			<div class="icons">
+				<div id="account-btn" class="fas fa-user"></div>
+				<div id="menu-btn" class="fas fa-bars"></div>
+			</div>
+		</header>
+		
+
+		<div class="account-form">
+			<div id="close-form" class="fas fa-times"></div>
+
+			<div class="buttons">
+				<span class="btn login-btn active">login</span>
+				<span class="btn register-btn">register</span>
+			</div>
+
+			<form action="" class="login-form active">
+				<h3>login now</h3>
+				<input type="email" placeholder="Enter your email" class="box">
+				<input type="password" placeholder="Enter your password" class="box">
+				<div class="flex">
+					<input type="checkbox" name="" id="remember-me">
+					<label for="remember-me">remember-me</label>
+					<a href="#">forgot password</a>
+				</div>
+				<input type="submit" class="btn" value="login now">
+			</form>
+
+			<form action="" class="register-form">
+				<h3>register now</h3>
+				<input type="email" placeholder="Enter your email" class="box">
+				<input type="password" placeholder="Enter your password" class="box">
+				<input type="password" placeholder="confirm your password" class="box">
+				<input type="submit" class="btn" value="register now">
+			</form>
+		</div>
+		
+
+		<section class="home">
+			<div class="home-slider swiper">
+				<div class="swiper-wrapper">
+					<section class="swiper-slide slider" style="background-image: url(images/home-1.jpeg)">
+						<div class="content">
+							<h3>Solving Migration Crisis</h3>
+							<p>
+								We are committed so solving the ever-rising Migration
+								crisis in Africa(Ghana) by providing trainings and 
+								life-changing opportunities for young Ghanaians.
+							</p>
+							<a href="#" class="btn">Join Us</a>
+						</div>
+					</section>
+
+					<section class="swiper-slide slider" style="background-image: url(images/home-2.jpeg)">
+						<div class="content">
+							<h3>We Prepare you for Opportunity</h3>
+							<p>
+								Our Bootcamps and trainigs are specially tailored to prepare
+								individuals for the Tech job market by providing relevant
+								skills.
+							</p>
+							<a href="#" class="btn">Join Us</a>
+						</div>
+					</section>
+
+					<section class="swiper-slide slider" style="background-image: url(images/home-3.jpeg)">
+						<div class="content">
+							<h3>We help find you a Job</h3>
+							<p>
+								We don't just train and abandon trainees. NascoTech has a system
+								that is tailored to take you through learning to working and earning
+								from your acquired skill. With over <b>30+</b> trainees currently employed.
+							</p>
+							<a href="#" class="btn">Join Us</a>
+						</div>
+					</section>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+	
+
+
+		<section class="subjects">
+			<h1 class="heading">Our Training Areas</h1>
+			<div class="box-container">
+				<div class="box">
+					<img src="images/subject-1.png" alt="">
+					<h3>Artificial Intelligence and DataScience</h3>
+					
+				</div>
+				<div class="box">
+					<img src="images/subject-2.png" alt="">
+					<h3>Software Engineering</h3>
+					
+				</div>
+				<div class="box">
+					<img src="images/subject-3.png" alt="">
+					<h3>3D Design and Modelling</h3>
+					
+				</div>
+				<div class="box">
+					<img src="images/subject-4.png" alt="">
+					<h3>Web Development</h3>
+				
+				</div>
+				<div class="box">
+					<img src="images/subject-5.png" alt="">
+					<h3>Graphic Design</h3>
+					
+				</div>
+				<div class="box">
+					<img src="images/subject-6.png" alt="">
+					<h3> Basic Computer Literacy Training</h3>
+					
+				</div>
+			</div>
+		</section>
+
+		
+
+		<section class="home-courses">
+			<h1 class="heading">Some Bootcamps and Trainings</h1>
+			<div class="home-courses-slider swiper">
+				<div class="swiper-wrapper">
+					<div class="slide swiper-slide">
+						<div class="image">
+							<img src="./images/course-home-1.jpg" alt="">
+							<h3>web development</h3>
+						</div>
+						<div class="content">
+							<h3>web development</h3>
+							<p>Our 3 month complete web developer training</p>
+							<a href="#" class="btn">read more</a>
+						</div>
+					</div>
+					<div class="slide swiper-slide">
+						<div class="image">
+							<img src="./images/course-home-2.png" alt="">
+							<h3>3D Printing</h3>
+						</div>
+						<div class="content">
+							<h3>3D Printing</h3>
+							<p>Intensive 3D design and printing course</p>
+							<a href="#" class="btn">read more</a>
+						</div>
+					</div>
+					<div class="slide swiper-slide">
+						<div class="image">
+							<img src="./images/course-home-3.jpg" alt="">
+							<h3>NASCOCODE Academy</h3>
+						</div>
+						<div class="content">
+							<h3>NASCOCODE Academy</h3>
+							<p>A special training for people with 0 coding skills</p>
+							<a href="#" class="btn">read more</a>
+						</div>
+					</div>
+					<div class="slide swiper-slide">
+						<div class="image">
+							<img src="./images/course-home-4.png" alt="">
+							<h3>UI/UX & Graphic Design</h3>
+						</div>
+						<div class="content">
+							<h3>UI/UX & Graphic Design</h3>
+							<p>This is a 3 month UI/UX and graphic design training.</p>
+							<a href="#" class="btn">read more</a>
+						</div>
+					</div>
+				
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+		<div class="camp-count">
+			<div class="trained">
+				<h1> 500+</h1>
+				<p>Students Trained </p>
+			</div>
+
+			<div class="jobs-created">
+				<h1> 70+</h1>
+				<p>Job Created </p>
+			</div>
+
+			<div class="training-completed">
+				<h1> 30+</h1>
+				<p>Trainings Completed </p>
+			</div>
+			
+			<div class="bootcamps">
+				<h1> 6+</h1>
+				<p>Completed Bootcamps </p>
+			</div>
+			
+		</div>
+
+	
+		<section class="footer">
+			<div class="box-container">
+				<div class="box">
+					<h3>newsletter</h3>
+					<p>subscribe for latest updates</p>
+					<form action="">
+						<input type="email" placeholder="enter your email" class="email">
+						<input type="submit" value="subscribe" class="btn">
+					</form>
+				</div>
+				<div class="box">
+					<h3>quick links</h3>
+					<a href="index.html" class="link">home</a>
+					<a href="about.html" class="link">about</a>
+					<a href="courses.html" class="link">courses</a>
+					<a href="gallery.html" class="link">gallery</a>
+					<a href="contact.html" class="link">contact</a>
+				</div>
+				<div class="box">
+					<h3>useful links</h3>
+					<a href="#" class="link"> Send Feedback</a>
+					<a href="#" class="link">ask questions</a>
+					<a href="#" class="link">Need Help?</a>
+					<a href="#" class="link">Our policy</a>
+				</div>
+				<div class="box">
+					<h3>Our Socials</h3>
+					<p>Connect with us on social media and stay updated</p>
+					<div class="share">
+						<a href="#" class="fab fa-facebook-f"></a>
+						<a href="#" class="fab fa-twitter"></a>
+						<a href="#" class="fab fa-instagram"></a>
+						<a href="#" class="fab fa-pinterest"></a>
+					</div>
+				</div>
+			</div>
+			<div class="credit">
+				Designed by<span> Bootcamp Group 2</span> | all rights reserved!
+			</div>
+		</section>
+
+		
+		<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
