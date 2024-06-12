@@ -1,5 +1,6 @@
-
+/* Import Google Fonts */
 @import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap);
+
 * {
   font-family: Roboto, sans-serif;
   -webkit-box-sizing: border-box;
@@ -14,7 +15,6 @@
   transition: all 0.3s linear;
   text-transform: capitalize;
 }
-
 
 :root {
   --yellow: #fbff00;
@@ -70,24 +70,30 @@ html {
   font-size: 62.5%;
   overflow-x: hidden;
 }
+
 html::-webkit-scrollbar {
   width: 1rem;
 }
+
 html::-webkit-scrollbar-track {
   background: 0 0;
 }
+
 html::-webkit-scrollbar-thumb {
   background: var(--yellow);
 }
+
 section {
   padding: 5rem 10%;
 }
+
 .heading {
   text-align: center;
   margin-bottom: 3rem;
   font-size: 3.5rem;
   color: var(--black);
 }
+
 .header {
   position: sticky;
   left: 0;
@@ -105,110 +111,115 @@ section {
   display: flex;
   z-index: 1000;
 }
+
 .header .logo {
   margin-right: auto;
   max-width: 400px;
   width: 100%;
   height: auto;
 }
+
 .header .navbar {
   position: relative;
 }
+
 .header .navbar a {
   margin-right: 2rem;
   font-size: 2rem;
   color: var(--black);
 }
+
 .header .navbar a:hover {
   color: var(--yellow);
 }
+
 .header .icons div {
   cursor: pointer;
   font-size: 2.5rem;
   color: var(--black);
   margin-left: 1.5rem;
 }
+
 .header .icons div:hover {
   color: var(--yellow);
 }
+
 .header #menu-btn {
   display: none;
 }
 
 .course-details-container {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #fff;
-    padding: 3rem;
-    margin: 2rem auto;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 3rem;
+  margin: 2rem auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 80%;
 }
 
 .coursedetails-info {
-    flex: 1;
-    margin-right: 2rem;
+  flex: 1;
+  margin-right: 2rem;
 }
 
 .coursedetails-info img {
-    width: 65%;
-    border-radius: 5px;
-    margin-bottom: 2rem;
+  width: 65%;
+  border-radius: 5px;
+  margin-bottom: 2rem;
 }
 
 .coursedetails-info h2 {
-    margin-top: 10px;
-    font-size: 3rem;
+  margin-top: 10px;
+  font-size: 3rem;
 }
 
 .coursedetails-info p {
-    font-size: 3rem;
-    color: #666;
-    line-height: 8rem;
+  font-size: 3rem;
+  color: #666;
+  line-height: 8rem;
 }
 
 .coursedetails-info .icons {
-    display: flex;
-    gap: 4rem;
-    font-size: 2rem;
-    color: #555;
-    margin-top: 2rem;
+  display: flex;
+  gap: 4rem;
+  font-size: 2rem;
+  color: #555;
+  margin-top: 2rem;
 }
 
 .coursedetails-info .icons span {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .coursedetails-info .icons i {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
-
 .course-form-container {
-    flex: 1;
-    background-color: #fbfbfb;
-    padding: 20px;
-    border-radius: 5px;
-    margin-bottom: 3rem;
-   
+  flex: 1;
+  background-color: #fbfbfb;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 3rem;
 }
 
 .course-form-container h2 {
-    margin-bottom: 20px;
-    font-size: 5rem;
-    color: #333;
+  margin-bottom: 20px;
+  font-size: 5rem;
+  color: #333;
 }
 
 .form-group {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
 
 label {
-    display: block;
-    margin-bottom: 3px;
-    font-size: 3rem;
+  display: block;
+  margin-bottom: 3px;
+  font-size: 3rem;
 }
 
 input[type="text"],
@@ -216,112 +227,232 @@ input[type="email"],
 input[type="tel"],
 input[type="file"],
 textarea {
-    width: 100%;
-    padding: 2rem;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-    font-size: 3rem;
+  width: 100%;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 3rem;
 }
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 button {
-    width: 100%;
-    padding: 2rem;
-    background-color: #000000;
-    border: none;
-    color: white;
-    font-size: 3rem;
-    border-radius: 3px;
-    cursor: pointer;
+  width: 100%;
+  padding: 2rem;
+  background-color: #000000;
+  border: none;
+  color: white;
+  font-size: 3rem;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #cbdd06;
-    color: #000000;
+  background-color: #cbdd06;
+  color: #000000;
 }
 
-
 .footer {
-    background-color: var(--light-yellow);
-    padding-bottom: 10rem;
+  background-color: var(--light-yellow);
+  padding-bottom: 10rem;
+}
+
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+}
+
+.footer .box-container .box h3 {
+  font-size: 2.2rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .share {
+  margin-top: 1rem;
+}
+
+.footer .box-container .box .share a {
+  height: 4.5rem;
+  width: 4.5rem;
+  line-height: 4.5rem;
+  font-size: 1.7rem;
+  color: var(--white);
+  background-color: var(--yellow);
+  text-align: center;
+  margin-right: 0.3rem;
+}
+
+.footer .box-container .box .share a:hover {
+  background-color: var(--black);
+}
+
+.footer .box-container .box p {
+  font-size: 1.5rem;
+  line-height: 2;
+  color: var(--light-color);
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .link {
+  font-size: 1.7rem;
+  line-height: 2;
+  color: var(--light-color);
+  padding: 0.5rem 0;
+  display: block;
+}
+
+.footer .box-container .box .link:hover {
+  color: var(--yellow);
+  text-decoration: underline;
+}
+
+.footer .box-container .box .email {
+  width: 95%;
+  padding: 1.2rem 1.4rem;
+  font-size: 1.6rem;
+  border: 0.1rem solid var(--yellow);
+  margin-bottom: 1rem;
+}
+
+.footer .credit {
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 3rem;
+  margin-top: 3rem;
+  color: var(--black);
+  border-top: 0.1rem solid var(--yellow);
+}
+
+.footer .credit span {
+  color: var(--yellow);
+}
+
+/* Media queries for responsive design */
+@media (max-width: 1024px) {
+  /* Styles for iPads and tablets */
+  .course-details-container {
+    flex-direction: column;
+    padding: 2rem;
   }
-  .footer .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  
+  .coursedetails-info {
+    margin-right: 0;
   }
-  .footer .box-container .box h3 {
-    font-size: 2.2rem;
-    color: var(--black);
-    padding: 1rem 0;
+  
+  .coursedetails-info img {
+    width: 100%;
   }
-  .footer .box-container .box .share {
-    margin-top: 1rem;
-  }
-  .footer .box-container .box .share a {
-    height: 4.5rem;
-    width: 4.5rem;
-    line-height: 4.5rem;
-    font-size: 1.7rem;
-    color: var(--white);
-    background-color: var(--yellow);
-    text-align: center;
-    margin-right: 0.3rem;
-  }
-  .footer .box-container .box .share a:hover {
-    background-color: var(--black);
-  }
-  .footer .box-container .box p {
-    font-size: 1.5rem;
-    line-height: 2;
-    color: var(--light-color);
-    padding: 1rem 0;
-  }
-  .footer .box-container .box .link {
-    font-size: 1.7rem;
-    line-height: 2;
-    color: var(--light-color);
-    padding: 0.5rem 0;
-    display: block;
-  }
-  .footer .box-container .box .link:hover {
-    color: var(--yellow);
-    text-decoration: underline;
-  }
-  .footer .box-container .box .email {
-    width: 95%;
-    padding: 1.2rem 1.4rem;
-    font-size: 1.6rem;
-    border: 0.1rem solid var(--yellow);
-    margin-bottom: 1rem;
-  }
-  .footer .credit {
-    text-align: center;
+  
+  .coursedetails-info p {
     font-size: 2rem;
-    padding-top: 3rem;
-    margin-top: 3rem;
-    color: var(--black);
-    border-top: 0.1rem solid var(--yellow);
+    line-height: 3rem;
   }
-  .footer .credit span {
-    color: var(--yellow);
+  
+  .coursedetails-info .icons {
+    font-size: 1.5rem;
+  }
+  
+  .course-form-container {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Styles for phones */
+  html {
+    font-size: 50%;
   }
 
+  .header .navbar a {
+    font-size: 1.8rem;
+  }
 
-  /* @media (max-width: 768px) {
-    .course-details-container {
-        flex-direction: column;
-    }
+  .header .icons div {
+    font-size: 2rem;
+  }
 
-    .coursedetails-info {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
+  .coursedetails-info h2 {
+    font-size: 2.5rem;
+  }
 
-    .course-form-container {
-        margin-top: 20px;
-    }
-} */
+  .coursedetails-info p {
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+
+  .course-form-container h2 {
+    font-size: 4rem;
+  }
+
+  .form-group {
+    margin-bottom: 3rem;
+  }
+
+  label {
+    font-size: 2rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="file"],
+  textarea {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  /* Styles for larger screens */
+  html {
+    font-size: 75%;
+  }
+
+  .header .navbar a {
+    font-size: 2.2rem;
+  }
+
+  .header .icons div {
+    font-size: 3rem;
+  }
+
+  .coursedetails-info h2 {
+    font-size: 4rem;
+  }
+
+  .coursedetails-info p {
+    font-size: 3.5rem;
+    line-height: 9rem;
+  }
+
+  .course-form-container h2 {
+    font-size: 5.5rem;
+  }
+
+  .form-group {
+    margin-bottom: 6rem;
+  }
+
+  label {
+    font-size: 3.5rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="file"],
+  textarea {
+    font-size: 3.5rem;
+  }
+
+  button {
+    font-size: 3.5rem;
+  }
+}
