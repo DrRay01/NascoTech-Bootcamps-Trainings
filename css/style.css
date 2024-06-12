@@ -32,7 +32,7 @@
 
 .heading-link h3 {
   font-size: 4rem;
-  color: var(--black);
+  color: white;
 }
 
 .heading-link p {
@@ -53,7 +53,7 @@
   display: inline-block;
   color: var(--black);
   margin-top: 1rem;
-  padding: 1rem 4rem;
+  padding: 1rem 3.5rem;
   font-size: 2rem;
   border: var(--border);
   background-color: yellow;
@@ -134,11 +134,13 @@ section {
 .header #menu-btn {
   display: none;
 }
+
+
 .account-form {
   position: fixed;
-  right: -105%;
+  right: -150%;
   top: 0;
-  width: 35rem;
+  width: 90rem;
   background-color: var(--white);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -165,12 +167,12 @@ section {
   position: absolute;
   top: 1.5rem;
   right: 2.5rem;
-  font-size: 4rem;
+  font-size: 6rem;
   cursor: pointer;
   color: var(--black);
 }
 .account-form #close-form:hover {
-  color: var(--yellow);
+  color: #0b0b0b;
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
@@ -188,29 +190,29 @@ section {
   padding-bottom: 0.5rem;
 }
 .account-form form .box {
-  width: 100%;
+  width: 80%;
   padding: 1.2rem 1.4rem;
   border: var(--border);
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin: 0.7rem 0;
 }
 .account-form form .flex {
-  padding: 1rem 0;
+  padding: 1.6rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 .account-form form .flex label {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--light-color);
   cursor: pointer;
 }
 .account-form form .flex a {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--light-color);
   margin-left: auto;
 }
@@ -219,12 +221,15 @@ section {
   color: var(--yellow);
 }
 .account-form .buttons .btn {
-  margin: 0 0.5rem;
+  margin: 0 0 2rem;
 }
 .account-form .buttons .btn.active {
-  color: var(--white);
+  color: #0b0b0b;
   background-color: var(--yellow);
 }
+
+
+
 .home {
   padding: 0;
 }
